@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button, Stack, Title, Divider, Container } from "@mantine/core";
 import { v4 as uuidv4 } from "uuid";
 
+
 type FoodItem = {
   id: string;
   name: string;

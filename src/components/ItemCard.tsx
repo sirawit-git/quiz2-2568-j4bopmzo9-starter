@@ -16,5 +16,6 @@ export default function ItemCard() {
 
   return {
     /* Type additional text here. */
+    
   };
 }

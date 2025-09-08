@@ -35,7 +35,7 @@ export default function HeaderComponent({
             aria-label="Toggle navigation"
           />
         )}
-        <ThemeIcon size="lg">
+        <ThemeIcon size="lg" color="chanadda">
       <IconGrillFork style={{ width: '70%', height: '70%' }} />
     </ThemeIcon>
         <Text
