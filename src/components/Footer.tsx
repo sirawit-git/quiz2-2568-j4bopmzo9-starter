@@ -3,7 +3,7 @@ export default function Footer(/* add props here */) {
   return (
     <Group p="md" justify="center">
       <Text>
-        © Chanadda 670612999 CPE207-2025. All rights reserved.
+        © Sirawit 670610740 CPE207-2025. All rights reserved.
       </Text>
     </Group>
   );
