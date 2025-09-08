@@ -7,6 +7,8 @@ import {
 } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import { IconSun, IconMoon } from "@tabler/icons-react";
+import { ThemeIcon } from '@mantine/core';
+import { IconGrillFork } from '@tabler/icons-react';
 
 interface HeaderComponentProps {
   opened: boolean;
@@ -33,6 +35,9 @@ export default function HeaderComponent({
             aria-label="Toggle navigation"
           />
         )}
+        <ThemeIcon size="lg">
+      <IconGrillFork style={{ width: '70%', height: '70%' }} />
+    </ThemeIcon>
         <Text
           size="xl"
           fw={900}
